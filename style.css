@@ -3,8 +3,8 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  color: #333;
-  background: #f9f9f9;
+  color: #e0e0e0;
+  background: #121212;
 }
 
 header, section, footer {
@@ -14,21 +14,21 @@ header, section, footer {
 }
 
 header {
-  background: #0078D4;
-  color: white;
+  background: #1f1f1f;
+  color: #00b4ff;
   text-align: center;
 }
 
 .about, .highlights, .contact {
-  background: white;
+  background: #1e1e1e;
   margin-top: 1rem;
   border-radius: 10px;
   padding: 1.5rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
 }
 
 h2 {
-  color: #0078D4;
+  color: #00b4ff;
 }
 
 ul {
@@ -41,13 +41,17 @@ ul li {
 }
 
 a {
-  color: #0078D4;
+  color: #66d9ef;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 footer {
   text-align: center;
   font-size: 0.9rem;
   margin-top: 2rem;
-  color: #666;
+  color: #999;
 }
